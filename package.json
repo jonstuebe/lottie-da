@@ -1,0 +1,54 @@
+{
+  "name": "lottie-da",
+  "description": "React hooks util for controlling Lottie animations.",
+  "license": "MIT",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonstuebe/lottie-da.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonstuebe/lottie-da/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/lottie-da.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build"
+  },
+  "peerDependencies": {
+    "react": ">=16",
+    "react-native": ">=0.58"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": false,
+    "trailingComma": "es5",
+    "arrowParens": "always"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.16",
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.8.5",
+    "@types/react-native": "^0.60.2",
+    "husky": "^3.0.2",
+    "prettier": "^1.18.2",
+    "pretty-quick": "^1.11.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-native": "^0.60.4",
+    "tsdx": "^0.7.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.5.3"
+  }
+}
